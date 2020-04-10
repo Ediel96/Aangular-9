@@ -417,6 +417,10 @@
     </div>
   </div>
 
+  <div class="container main-container">
+    <router-outlet></router-outlet>
+  </div>
+
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>ng generate component xyz</pre>
